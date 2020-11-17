@@ -1,0 +1,121 @@
+
+title {
+    
+}
+
+body {
+    font-family: Nanum Gothic;
+    background-color: black;
+}
+
+#container {
+    width: auto;
+    height: 800px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("modern waves.jpg");
+    background-size: cover;
+    margin: 70px auto;
+}
+
+#calculator {
+    width: 320px;
+    height: 520px;
+    background-color: #deeaee;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.4);
+}
+
+#result {
+    height: 120px;
+}
+
+
+
+#output-value {
+    
+}
+
+#history {
+    text-align: right;
+    height: 0px;
+    margin: 0 20px;
+    padding-top: 10px;
+    font-size: 15px;
+    color: dimgrey;
+}
+
+#output {
+    text-align:right;
+    height: 60px;
+    margin: 10px 30px;
+    font-size: 50px;
+}
+
+.number, .operator, .empty {
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 25px;
+}
+.number {
+    background-color: #b1cbbb
+}
+
+.empty {
+    background-color: #deeaee;
+}
+
+.number, .operator {
+    cursor: pointer;    
+}
+
+.number:active, .operator:active {
+    font-size: 20px;
+}
+
+.number:focus, .operator:focus, .empty:focus {
+    outline: 0;
+}
+
+button:nth-child(1) {
+    background-color: #eea29a;
+}
+
+button:nth-child(2) {
+    background-color: #eea29a;
+}
+
+button:nth-child(3) {
+    background-color: #eea29a;
+}
+
+button:nth-child(4) {
+    font-size: 20px;
+    background-color: #c94c4c;
+}
+
+button:nth-child(8) {
+    font-size: 20px;
+    background-color: #c94c4c;
+}
+
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: #c94c4c;
+}
+
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: #c94c4c;
+}
+
+button:nth-child(20) {
+    font-size: 20px;
+    background-color: #c94c4c;
+}
